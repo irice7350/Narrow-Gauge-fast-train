@@ -7,32 +7,32 @@ STR_NGFT_URL :https://github.com/kimjostars/Narrow-Gauge-fast-train
 
 #parameters
 STR_NGFT_PURCHASE_COST_NAME :Purchase cost
-STR_NGFT_PURCHASE_COST_DESC :It is Purchase cost Defind
+STR_NGFT_PURCHASE_COST_DESC :Set cost to purchase vehicles. {}The cost is based on {RED}JP+ {BLACK}'s one.
 STR_NGFT_PURCHASE_COST_VERY_LOW :Very Low
 STR_NGFT_PURCHASE_COST_LOW :Low
 STR_NGFT_PURCHASE_COST_NOMAL :Nomal (Default)
 STR_NGFT_PURCHASE_COST_HIGH :High
-STR_NGFT_RUNNING_COST_NAME : Running Cost
-STR_NGFT_RUNNING_COST_DESC : It is Running Cost Defind
+STR_NGFT_RUNNING_COST_NAME : Operating cost
+STR_NGFT_RUNNING_COST_DESC : Set cost to operate vehicles. {}The cost is based on {RED}JP+ {BLACK}'s one.
 STR_NGFT_RUNNING_COST_VERY_LOW :Very Low
 STR_NGFT_RUNNING_COST_LOW :Low
 STR_NGFT_RUNNING_COST_NOMAL :Nomal (Default)
 STR_NGFT_RUNNING_COST_HIGH :High
 STR_NGFT_LOADING_SPEED_NAME :Loading Speed
-STR_NGFT_LOADING_SPEED_DESC :It is Loading Speed Defind
+STR_NGFT_LOADING_SPEED_DESC :Set speed of loading vehicles. {}The speed is based on {RED}JP+ {BLACK}'s one.
 STR_NGFT_LOADING_SPEED_VERY_SLOW :Very Slow
 STR_NGFT_LOADING_SPEED_SLOW :Slow
 STR_NGFT_LOADING_SPEED_NOMAL :Nomal (Default)
 STR_NGFT_LOADING_SPEED_FAST :Fast
-STR_NGFT_CARGO_CAPACITY_NAME :Transport volume
-STR_NGFT_CARGO_CAPACITY_DESC :Set the transport volume.{}If it is "x1", it is equal to the actual transport volume.
+STR_NGFT_CARGO_CAPACITY_NAME :Max capacity
+STR_NGFT_CARGO_CAPACITY_DESC :Set the max capacity of vehicles. {}If it is setted as "x1", it means that the vehicles will load same amount as the real vehicle's one.
 STR_NGFT_CARGO_CAPACITY_quarter :x1/4
 STR_NGFT_CARGO_CAPACITY_half :x1/2
 STR_NGFT_CARGO_CAPACITY_default :x1 (Default)
 STR_NGFT_CARGO_CAPACITY_X2 :x2
 STR_NGFT_CARGO_CAPACITY_X4 :x4
-STR_NGFT_HGIH_SPEED_NAME :Improvement of train speed limits
-STR_NGFT_HGIH_SPEED_DESC :Enabling this setting increases the train speed limit.{}default value is disabled.
+STR_NGFT_HGIH_SPEED_NAME :Increase max speed of train
+STR_NGFT_HGIH_SPEED_DESC :You can increase speed limit of vehicles for {RED}limited express service or {SILVER}virtual {BLACK}vehicles by enabling this parameter. {}default value is disabled.
 
 #trains
 #commonness
@@ -53,7 +53,7 @@ STR_SPACE :
 
 ###Electro system
 STR_DENKI :Electric System: {STRING}
-STR_NOT_DENKI :Power Type: {GOLD}{STRING}
+STR_NOT_DENKI :Operation Type: {GOLD}{STRING}
 STR_STEAM :Steam
 STR_DIESEL :Diesel
 STR_HYBRID :Diesel-Electric
@@ -106,9 +106,9 @@ STR_NARROW :Narrow (1,067mm)
 STR_STANDARD :Standard (1,435mm)
 
 ###Loading Speed
-STR_LOAD_SPEED :Loading Speed: {GOLD}{STRING}
-STR_DOORS :{COMMA} Door
-STR_DOORS_REFIT :{COMMA} Door (refit to {COMMA} available)
+STR_LOAD_SPEED :Loading Speed(Doors per car): {GOLD}{STRING}
+STR_DOORS :{COMMA} Doors
+STR_DOORS_REFIT :{COMMA} Doors (Refitting to {COMMA} doors per car is enable.)
 
 ###Formations
 STR_FORMATION :Real/Recommended Formation: {GOLD}{STRING}
@@ -159,16 +159,16 @@ STR_NAME_600_TRAINS :600 series {WHITE}(EMU){BLACK}
 
 STR_NAME_123_TRAINS :123 series {WHITE}(EMU){BLACK}
 STR_123_SERIES_JW_YY :{STRING} {YELLOW}Regional Livery
-STR_123_SERIES_JW_BW :{STRING} {WHITE}Renewal Livery
+STR_123_SERIES_JW_BW :{STRING} {WHITE}Renewed Livery
 STR_123_SERIES_JC_W_2_DOOR :{STRING} {GREEN}Shonan Livery 2doors
 STR_123_SERIES_JC_W_3_DOOR :{STRING} {GREEN}Shonan Livery 3doors
-STR_123_SERIES_JE_RW :{STRING} {RED}Livery
+STR_123_SERIES_JE_RW :{STRING} {RED}Livery w. Red/White
 
 STR_NAME_521_TRAINS :521 series {WHITE}(EMU){BLACK}
-STR_521_0_SERIES :{STRING} {BLUE}0s
-STR_521_0_1_2_SERIES :{WHITE}├ {BLACK}1,2 batch
-STR_521_0_3_SERIES :{WHITE}└ {BLACK}3 batch
-STR_521_100_SERIES :{STRING} {CREAM}100s
+STR_521_0_SERIES :{STRING} {BLUE}521-0 series
+STR_521_0_1_2_SERIES :{WHITE}├ {BLACK}first, second batch
+STR_521_0_3_SERIES :{WHITE}└ {BLACK}third batch
+STR_521_100_SERIES :{STRING} {CREAM}Livery w. Red/White (521-100 series)
 
 STR_NAME_2000_TRAINS :2000 serise {WHITE}(DMU){BLACK}
 STR_2000_1_STREAMLINED :streamlined type
